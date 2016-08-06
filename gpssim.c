@@ -2300,6 +2300,8 @@ int main(int argc, char *argv[])
 		// Update time counter
 		printf("\rTime into run = %4.1f", grx.sec-g0.sec);
 		fflush(stdout);
+		
+		iumd++;
 	}
 
 	tend = clock();
